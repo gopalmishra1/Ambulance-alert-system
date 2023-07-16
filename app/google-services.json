@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734934604714",
+    "project_id": "ambuja-75a02",
+    "storage_bucket": "ambuja-75a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734934604714:android:c7451801b1222c633629d3",
+        "android_client_info": {
+          "package_name": "com.example.ambuja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734934604714-hecsjsv3m3f0aoc99c2rpi35r72mnsdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW7fhYCRDJ33FTj65Qdh6Hng052qZzOtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734934604714-hecsjsv3m3f0aoc99c2rpi35r72mnsdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

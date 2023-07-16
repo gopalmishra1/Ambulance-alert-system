@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="400dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+
+            android:orientation="vertical"
+
+            android:id="@+id/first"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/first2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center|left"
+                android:hint="Phone no /Adhar no"
+                android:paddingBottom="8dp"
+                android:textColorHint="#f7941e"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:textColor="#FFBB86FC"
+                android:textSize="15sp">
+            </EditText>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+
+            android:orientation="vertical"
+
+            android:id="@+id/firstNameLayout"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/firstNameET"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center|left"
+                android:hint="vehical no"
+                android:paddingBottom="8dp"
+                android:textColorHint="#f7941e"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="8dp"
+                android:textColor="#FF000000"
+                android:textSize="15sp">
+            </EditText>
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/button_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginVertical="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
